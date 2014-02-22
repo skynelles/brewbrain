@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 ruby '1.9.3'
-#ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '3.2.13'
 
@@ -30,8 +29,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
